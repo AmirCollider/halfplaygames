@@ -1,0 +1,21 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	// Must match the Worker name in the Cloudflare dashboard (connected to this GitHub repo)
+	"name": "halfplaygames",
+	"main": "worker.js",
+	// The day the original site was created
+	"compatibility_date": "2025-08-18",
+	// Serves the site at halfplaygames.amircollidergames.workers.dev
+	"workers_dev": true,
+	// Site images (logo, flags, promo, GitHub screenshot) live in the root of this R2 bucket.
+	// worker.js reads them through the global HALFPLAYGAMES_R2 binding.
+	"r2_buckets": [
+		{
+			"binding": "HALFPLAYGAMES_R2",
+			"bucket_name": "halfplaygamesr2"
+		}
+	],
+	"observability": {
+		"enabled": true
+	}
+}
