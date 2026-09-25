@@ -149,7 +149,7 @@ async function handleRequest(request) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="google-site-verification" content="qhDb3f-aAwGhcY1KJO36Da257deNaeN6CDqJPBjurkk" />
+    <meta name="google-site-verification=jVFzRLY9Sg84p9L0ICueyUKxFwqlvSa82VIcGTkyXjI" />
 
     <!-- [SEO-ENHANCEMENT] تگ‌های اصلی و حیاتی برای سئو -->
     <title>HalfPlay Games - 50% Off Steam Games | PC Game Deals & Charity</title>
